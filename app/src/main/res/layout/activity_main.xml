@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+    >
+
+    <fragment
+
+        android:id="@+id/fr1"
+        android:name="com.mohsin.fragment.FirstFragment"
+        android:layout_width="198dp"
+        android:layout_height="match_parent"
+        >
+
+    </fragment>
+    <fragment
+
+        android:id="@+id/fr2"
+        android:name="com.mohsin.fragment.Fragment_second"
+        android:layout_width="197dp"
+        android:layout_height="match_parent"
+        >
+
+    </fragment>
+
+
+
+
+</LinearLayout>
